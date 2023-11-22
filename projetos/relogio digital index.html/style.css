@@ -1,0 +1,93 @@
+    
+      body{
+         display: grid;
+         place-items: center;
+         height: 100vh;
+         background: linear-gradient( 90deg,  rgb(23, 5, 75), rgb(123, 97, 240));
+         
+         
+      }
+    
+    #relogio{
+        display: flex;
+        width: 80%;
+     
+      border-radius: 7px;
+        justify-content: space-around;
+        overflow: hidden;
+        background-color: rgb(129, 6, 245);
+        
+        
+        
+    }
+     .horas{
+
+        background-color: rgba(137, 43, 226, 0.685);
+        
+     } 
+     
+     .minutos{
+
+        background-color: rgba(24, 250, 175, 0.575);
+     }
+
+     .container-seg{
+
+        background-color: rgba(161, 31, 111, 0.329);
+     }
+
+     .filhas{
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 4%;
+        margin: 1.5%;
+        justify-content: center;
+        border-radius: 8px;
+        letter-spacing: 3px;
+        align-items: center;
+        color: aliceblue;
+        box-shadow: 0 5px 10px;
+        height: auto;
+        font-family: fantasy;
+      
+     }
+
+     span{
+
+        font-size: 2rem;
+        color: white;
+        margin-top: 8%;
+        
+
+     }
+
+     h1{
+      font-size: 4rem;
+      font-family: fantasy;
+      color: aliceblue;
+      box-shadow: 0 8px 10px;
+
+
+
+     }
+
+     @media (max-width:700px) {
+         
+    #relogio{
+
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+   
+      background-color: rgb(245, 6, 173);
+      
+      
+      
+  }
+
+  h1{
+   font-size: 3rem;
+  }
+     }

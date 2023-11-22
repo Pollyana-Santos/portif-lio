@@ -1,0 +1,73 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+</style>
+
+
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+
+}
+
+body{
+    background: url(https://img.freepik.com/fotos-premium/fundo-de-numeros-de-zero-a-nove-textura-de-numeros_333900-9341.jpg)no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: grid;
+    place-items: center;
+
+
+}
+
+h1{
+    position: absolute;
+    top: 3%;
+    font-family:'Secular One', sans-serif;
+    color: #efff08;
+    box-shadow: 0 8px 10px rgb(241, 247, 187);
+    font-size: 40px;
+
+}
+
+.calculadora{
+    background:rgba(0,0,0,.8);
+    border-radius: 4%;
+    padding: 2%; 
+
+}
+
+#resultado{
+    background-color: #fff;
+    margin: 4% auto;
+    font-size: 1.5rem;
+    color:black;
+    text-align: right;
+    padding: 2%;
+    overflow: hidden;
+    height: 2.2rem;
+    width: 13.7rem;
+  
+}
+
+button{
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0.2rem;
+    background-color: rgba(5, 53, 107, 0.555);
+    border: none;
+    color:#fff;
+    transition: all .8s;
+
+}
+
+button:hover{
+    background-color: #ffffff54;
+    
+}

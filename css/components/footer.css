@@ -1,0 +1,31 @@
+
+  .footer {
+    background-color: var(--light-tertiary-color);
+  
+  }
+  .footer__content {
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+    max-width: 160rem;
+    background:linear-gradient( rgb(111, 186, 247),rgb(23, 94, 226));
+    
+    
+  }
+  
+  footer .footer__content .footer__contact span {
+    display: block;
+    font-weight: 500;
+  }
+  
+  footer .footer__content ul li {
+    display: inline-block;
+  }
+  
+  footer .footer__content ul a {
+    display: inline-block;
+    padding: 1rem;
+  }
+  
+  footer .footer__content .footer__copyright {
+    font-size: 1.4rem;
+  }
